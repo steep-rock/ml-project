@@ -21,8 +21,8 @@ from src.logger import logging
 from src.utils import save_object
 
 from src.utils import evaluate_models
-@dataclass
 
+@dataclass
 class ModelTrainerConfig:
     train_model_file_path = os.path.join('artifacts','model.pkl')
 
